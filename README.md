@@ -1,6 +1,13 @@
-server - Java Spring Boot framework
+server - Java Spring Boot framework 
 
 database - MySQL
+
+required: Java 11 or later 
+
+# How to run
+1. In runnable/config.properties change url, username and password.
+2. Screate schema (Server can not create schema automatically)
+3. Run runnable/server.jar
 
 ### EER DIAGRAM
 
