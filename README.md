@@ -2,6 +2,11 @@ server - Java Spring Boot framework
 
 database - MySQL
 
+# How to run
+1. In config.properties change url, username and password.
+2. Screate schema (Server can not create schema automatically)
+3. Run server.jar file in runnable folder 
+
 ### EER DIAGRAM
 
 ![](https://gitlab.com/JaroslavVond/dpg-rest-api/-/raw/master/img/dat.png)
