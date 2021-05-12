@@ -6143,3 +6143,36 @@ Using generated security password: aa0e167b-2ef9-46c9-bd58-605787f99c76
 2021-05-12 18:27:00.355  INFO 66380 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2021-05-12 18:27:00.358  INFO 66380 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2021-05-12 18:27:00.359  INFO 66380 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-05-12 18:38:56.056  INFO 21176 --- [restartedMain] com.example.semestralka.Application      : Starting Application using Java 11.0.4 on DESKTOP-77ATMCM with PID 21176 (P:\skola\semestralkaDPG\target\classes started by JaroslavPC in P:\skola\semestralkaDPG)
+2021-05-12 18:38:56.057  INFO 21176 --- [restartedMain] com.example.semestralka.Application      : The following profiles are active: dev
+2021-05-12 18:38:56.081  INFO 21176 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-12 18:38:56.081  INFO 21176 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-12 18:38:56.460  INFO 21176 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-12 18:38:56.493  INFO 21176 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 3 JPA repository interfaces.
+2021-05-12 18:38:56.846  INFO 21176 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-12 18:38:56.856  INFO 21176 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-12 18:38:56.857  INFO 21176 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-12 18:38:56.936  INFO 21176 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-12 18:38:56.936  INFO 21176 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 855 ms
+2021-05-12 18:38:57.054  INFO 21176 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-12 18:38:57.106  INFO 21176 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-12 18:38:57.233  INFO 21176 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-12 18:38:57.298  INFO 21176 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-12 18:38:57.386  INFO 21176 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-12 18:38:57.400  INFO 21176 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-05-12 18:38:57.916  INFO 21176 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-12 18:38:57.922  INFO 21176 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-12 18:38:57.939  WARN 21176 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-05-12 18:38:57.962  WARN 21176 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-12 18:38:58.131  INFO 21176 --- [restartedMain] c.e.semestralka.services.MainService     : DEBUG
+2021-05-12 18:38:58.192  INFO 21176 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-12 18:38:58.297  INFO 21176 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: e5fbb5b1-b7f5-4f91-b3b5-8b5cf41f1387
+
+2021-05-12 18:38:58.340  INFO 21176 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6f11fdc6, org.springframework.security.web.context.SecurityContextPersistenceFilter@12a8cb5d, org.springframework.security.web.header.HeaderWriterFilter@79165d3c, org.springframework.web.filter.CorsFilter@647e8554, org.springframework.security.web.authentication.logout.LogoutFilter@94533d4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@166eb622, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4caa8dcc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@697a8547, org.springframework.security.web.session.SessionManagementFilter@71741a56, org.springframework.security.web.access.ExceptionTranslationFilter@7c11f98d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5ce33867]
+2021-05-12 18:38:58.383  INFO 21176 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-12 18:38:58.390  INFO 21176 --- [restartedMain] com.example.semestralka.Application      : Started Application in 2.574 seconds (JVM running for 3.443)
+2021-05-12 18:39:05.472  INFO 21176 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-12 18:39:05.473  INFO 21176 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-12 18:39:05.474  INFO 21176 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
