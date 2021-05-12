@@ -1,5 +1,7 @@
 server - Java Spring Boot framework 
+
 database - MySQL
+
 required: Java 11 or later 
 
 # How to run
