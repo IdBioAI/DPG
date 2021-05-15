@@ -8,7 +8,7 @@ import java.sql.Date;
 public class Employees {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue
     @Column(name = "idEmployyes")
     private Long idEmployyes;
 
@@ -22,11 +22,11 @@ public class Employees {
     Date birth;
 
     @ManyToOne
-    @JoinColumn(name = "idDepartment")
+    @JoinColumn(name = "idDepartment", updatable = false)
     private Department department;
 
-    @ManyToOne
-    @JoinColumn(name = "idSpecialization")
+    @ManyToOne()
+    @JoinColumn(name = "idSpecialization", updatable = false)
     private Specialization specialization;
 
     public Employees() {

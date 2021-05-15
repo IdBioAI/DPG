@@ -40,7 +40,7 @@ public class ApiService {
 
     @DeleteMapping("/deleteEmployees/{id}")
     public void deleteEmployees(@PathVariable Long id) {
-        employeesRepository.deleteById(id);
+        employeesRepository.deleteEmp(id);
     }
 
     @PostMapping("/addEmployees")
