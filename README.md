@@ -67,7 +67,7 @@ Method: DELETE
 
 #### ADD employee
 
-URL: /api/addEmployees/{id}
+URL: /api/addEmployees
 
 Method: POST
 
