@@ -22,11 +22,11 @@ public class Employees {
     Date birth;
 
     @ManyToOne
-    @JoinColumn(name = "idDepartment", updatable = false)
+    @JoinColumn(name = "idDepartment")
     private Department department;
 
     @ManyToOne()
-    @JoinColumn(name = "idSpecialization", updatable = false)
+    @JoinColumn(name = "idSpecialization")
     private Specialization specialization;
 
     public Employees() {
