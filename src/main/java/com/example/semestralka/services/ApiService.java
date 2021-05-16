@@ -137,8 +137,8 @@ public class ApiService {
             obj.put("firstname", e.getFirstname());
             obj.put("lastname", e.getLastname());
             obj.put("birth", e.getBirth());
-            obj.put("depShortcut", e.getDepartment().getShortcut());
-            obj.put("specShortcut", e.getSpecialization().getShortcut());
+            obj.put("idDepartment", e.getDepartment().getIdDepartment());
+            obj.put("idSpecialization", e.getSpecialization().getIdSpecialization());
             employeesJson.put(e.getIdEmployyes(), obj);
         }
 
